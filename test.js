@@ -61,4 +61,28 @@ describe('isccw', function() {
         assert.equal(true, isccw(geometry4));
     });
 
+    var reverseGeometry1 = geometry1.concat()
+    reverseGeometry1.reverse()
+    it('Reverse Geometry 1 should be CC', function() {
+        assert.equal(false, isccw(reverseGeometry1));
+    });
+
+    var reverseGeometry2 = geometry2.concat()
+    reverseGeometry2.reverse()
+    it('Reverse Geometry 2 should be CCW', function() {
+        assert.equal(true, isccw(reverseGeometry2));
+    });
+
+    var reverseGeometry3 = geometry3.concat()
+    reverseGeometry3.reverse()
+    it('Reverse Geometry 3 should be CC', function() {
+        assert.equal(false, isccw(reverseGeometry3));
+    });
+
+    var reverseGeometry4 = geometry4.concat()
+    reverseGeometry4.reverse()
+    it('Reverse Geometry 4 should be CC', function() {
+        assert.equal(false, isccw(reverseGeometry4));
+    });
+
 });
