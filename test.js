@@ -1,5 +1,5 @@
 var assert = require('assert');
-var {isccw} = require('./')
+var isccw = require('./')
 
 //CCW
 var geometry1 = [ 
