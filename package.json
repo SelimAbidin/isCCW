@@ -1,6 +1,6 @@
 {
   "name": "isccw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ccw check still in dev",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/SelimAbidin/isCCW.git"
   },
+  "keywords": [
+    "ccw",
+    "cc",
+    "countr-clockwise",
+    "anti-clockwise"
+  ],
   "author": "Selim Abidin",
   "license": "MIT",
   "bugs": {
