@@ -1,6 +1,6 @@
 {
   "name": "isccw",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ccw check still in dev",
   "main": "index.js",
   "scripts": {
