@@ -1,0 +1,22 @@
+{
+  "name": "isccw",
+  "version": "1.0.0",
+  "description": "ccw check still in dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelimAbidin/isCCW.git"
+  },
+  "author": "Selim Abidin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SelimAbidin/isCCW/issues"
+  },
+  "homepage": "https://github.com/SelimAbidin/isCCW#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
