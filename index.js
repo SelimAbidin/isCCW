@@ -9,7 +9,7 @@ module.exports = {
      * @param {Array} points [[x, y],[x,y],[x,y]]
      * @returns {Boolean}
      */
-    isConvexCCW : function (points) {
+    isccw : function (points) {
         
         let sum = 0
         let pt1, pt2, x2, y2

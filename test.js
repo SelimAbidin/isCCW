@@ -1,9 +1,5 @@
 var assert = require('assert');
-var {isConvexCCW} = require('./')
-
-/**
- * rather CD
- */
+var {isccw} = require('./')
 
 //CCW
 var geometry1 = [ 
@@ -32,7 +28,7 @@ var geometry3 = [
                     [4217530.546103817,  2334159.5148366746,  4162689.652535247],
                     [4217528.268360548,  2334163.4034457672,  4162689.7789585567]
                 ]
-// CCW
+// CCW concave
 var geometry4 = [
                     [4217557.376345214,  2334114.894070008,  4162687.503338551],
                     [4217556.127144155,  2334118.626670832,  4162686.6815866553],
@@ -47,22 +43,22 @@ var geometry4 = [
                     [4217556.815528095,  2334112.843130767,  4162689.210053642]
 ]
 
-describe('isConvexCCW', function() {
+describe('isccw', function() {
 
     it('Geometry 1 should be CCW', function() {
-        assert.equal(true, isConvexCCW(geometry1));
+        assert.equal(true, isccw(geometry1));
     });
       
     it('Geometry 2 should be CC', function() {
-        assert.equal(false, isConvexCCW(geometry2));
+        assert.equal(false, isccw(geometry2));
     });
 
     it('Geometry 3 should be CCW', function() {
-        assert.equal(true, isConvexCCW(geometry3));
+        assert.equal(true, isccw(geometry3));
     });
 
     it('Geometry 4 should be CCW', function() {
-        assert.equal(true, isConvexCCW(geometry4));
+        assert.equal(true, isccw(geometry4));
     });
 
 });
