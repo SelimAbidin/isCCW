@@ -1,7 +1,7 @@
 {
   "name": "isccw",
-  "version": "1.0.5",
-  "description": "ccw check still in dev",
+  "version": "2.0.0",
+  "description": "validator if polygon is CCW or not",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
