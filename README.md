@@ -1,5 +1,5 @@
 # isCCW
-[![Build Status](https://travis-ci.org/SelimAbidin/isCCW.svg?branch=master)](https://github.com/SelimAbidin/isCCW)
+[![Build Status](https://travis-ci.org/SelimAbidin/isCCW.svg?branch=master)](https://travis-ci.org/SelimAbidin/isCCW)
 
 Checks whether polygon is counter-clockwise (anti-clockwise)
 
